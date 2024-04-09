@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [1.2.2] - 2024-04-09
 
 ### Removed
 
@@ -28,5 +28,5 @@
 
 - Remove dependency from FakeAsync
 
-[Unreleased]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.1...HEAD
+[1.2.2]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.1...1.2.2
 [1.2.1]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.0...1.2.1
