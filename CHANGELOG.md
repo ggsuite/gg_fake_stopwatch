@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Removed
+
+- 'Pipline: Disable cache'
+
 ## [1.2.1] - 2024-04-09
 
 ### Changed
@@ -22,4 +28,5 @@
 
 - Remove dependency from FakeAsync
 
+[Unreleased]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.1...HEAD
 [1.2.1]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.0...1.2.1
