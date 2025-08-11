@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- Add .gitattributes file
+
 ## [1.2.3] - 2024-04-13
 
 ### Removed
@@ -35,6 +41,7 @@
 
 - Remove dependency from FakeAsync
 
+[Unreleased]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.3...HEAD
 [1.2.3]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.2...1.2.3
 [1.2.2]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.1...1.2.2
 [1.2.1]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.0...1.2.1

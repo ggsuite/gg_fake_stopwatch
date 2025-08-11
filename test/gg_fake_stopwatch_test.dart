@@ -29,10 +29,7 @@ void main() {
       expect(stopwatch.elapsed.inMilliseconds, milliseconds);
       expect(stopwatch.elapsedMilliseconds, milliseconds);
       expect(stopwatch.elapsedMicroseconds, milliseconds * 1000);
-      expect(
-        stopwatch.elapsedTicks,
-        stopwatch.elapsedMicroseconds * 10,
-      );
+      expect(stopwatch.elapsedTicks, stopwatch.elapsedMicroseconds * 10);
     }
 
     // .........................................................................
@@ -94,15 +91,13 @@ void main() {
         expect(
           () => stopwatch.elapse(Duration.zero),
           throwsA(
-            predicate(
-              (ArgumentError p0) {
-                expect(
-                  p0.message,
-                  'Don\'t call elapse when "elapsed()" callback is set.',
-                );
-                return true;
-              },
-            ),
+            predicate((ArgumentError p0) {
+              expect(
+                p0.message,
+                'Don\'t call elapse when "elapsed()" callback is set.',
+              );
+              return true;
+            }),
           ),
         );
 
@@ -112,8 +107,7 @@ void main() {
     });
 
     // .......................................................................
-    test(
-        'should allow to use elapse() when no elapsed() constructor param '
+    test('should allow to use elapse() when no elapsed() constructor param '
         'is given', () {
       fakeAsync((fake) {
         stopwatch = GgFakeStopwatch();
