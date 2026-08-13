@@ -1,25 +1,29 @@
 # Changelog
 
-## [Unreleased]
+## Unreleased
 
 ### Added
 
 - Add .gitattributes file
 
-## [1.2.3] - 2024-04-13
+### Changed
+
+- Rework copyright headers
+
+## 1.2.3 - 2024-04-13
 
 ### Removed
 
-- dependency to gg\_install\_gg, remove ./check script
+- dependency to gg_install_gg, remove ./check script
 - dependency pana
 
-## [1.2.2] - 2024-04-09
+## 1.2.2 - 2024-04-09
 
 ### Removed
 
 - 'Pipline: Disable cache'
 
-## [1.2.1] - 2024-04-09
+## 1.2.1 - 2024-04-09
 
 ### Changed
 
@@ -40,8 +44,3 @@
 ## 1.0.0 - 2024-01-01
 
 - Remove dependency from FakeAsync
-
-[Unreleased]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.3...HEAD
-[1.2.3]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.2...1.2.3
-[1.2.2]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.1...1.2.2
-[1.2.1]: https://github.com/inlavigo/gg_fake_stopwatch/compare/1.2.0...1.2.1
