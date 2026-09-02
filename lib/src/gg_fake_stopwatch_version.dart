@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `gg_fake_stopwatch` package.
-const String ggFakeStopwatchVersion = '1.3.0';
+const String ggFakeStopwatchVersion = '1.4.0';
